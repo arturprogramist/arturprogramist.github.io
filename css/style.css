@@ -1,0 +1,608 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    background-image: url(../image/header.png);
+    /* background: cover; */}
+.head{
+
+}
+.logo__txt{
+    width: 121px;
+    height: 41px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 31.1px;
+}
+.header img{
+    width: 43px;
+    height: 49px;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+.nav__bar{
+    border-bottom: 1px solid rgb(105, 105, 105);
+    align-items: center;
+    transition: 2s;
+}
+.nav__bar:hover{
+    border-bottom: 1px solid #ffeb3b;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4))
+}
+.logo__txt{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.logo__txt2{
+    display: block;
+    color: #e5432b;
+    font-family: Vidaloka;
+    font-size: 12px;
+    font-weight: 400;
+    float: right;
+    margin-top: -55px;
+}
+.menu{
+    list-style: none;
+    margin-top: 20px;
+}
+.menu a{
+    padding-right: 35px;
+    color: #ffffff;
+    width: 37px;
+    height: 10px;
+    text-decoration: none;
+    font-family: Vidaloka;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: #ffeb3b;
+}
+.inp{
+    float: right;
+}
+.inpt{
+    background: rgba(0, 0, 0, 0);
+    border:rgba(0, 0, 0, 0);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-style: solid
+}
+.but__nav{
+    background: rgba(112, 112, 112, 0);
+    border-style: none;
+    color: #ffffff;
+}
+.title{
+    display: block;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    padding-top: 118px;
+}
+.one{
+    display: block;
+    font-size: 110px;
+    margin-bottom: -100px;
+}
+.one2{
+    font-size: 200px;
+}
+
+/* OPIS BAR */
+
+.opis h2{
+    margin-top: 100px;
+    text-align: center;
+    width: 1078px;
+    height: 95px;
+    color: #333333;
+    font-family: Vidaloka;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 100px;
+}
+.opis span{
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+.opis h3{
+width: 266px;
+height: 86px;
+color: #969595;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+color: #313131;
+font-family: Vidaloka;
+font-size: 15px;
+letter-spacing: 0.6px;
+color: #464646;
+font-size: 20px;
+letter-spacing: 0.8px;
+letter-spacing: 0.52px;
+}
+.bor__l{
+    border-left: 1px solid #969595;
+}
+.mt{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+/* info */
+
+.thre{
+    background-image: url(../image/Background.png);
+    height: 400px;
+}
+.info{
+    text-align: center;
+}
+.center{
+    padding-top: 93px;
+}
+.info img{
+    margin-left: 5px;
+    width: 78px;
+    height: 50px;
+    margin-bottom: 56px;
+}
+.info h1{
+    margin: 0 auto;
+    text-align: center;
+    width: 87px;
+    height: 47px;
+    color: #ffffff;
+    font-family: Vidaloka;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.info p{
+    margin-left: 10px;
+    width: 338px;
+    height: 17px;
+    color: #ffeb3b;
+    font-family: Vidaloka;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 76.41px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* dop menu */
+
+.dop{
+    background: rgb(255, 255, 255);
+    height: 523px;
+}
+.portfolio{
+    text-align: center;
+}
+.dop h1{
+    margin-top: 100px;
+    color: #333333;
+    font-family: Vidaloka;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 96.05px;
+}
+.dop p{
+    color: #969595;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}
+.dop__menu{
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.dop button{
+    transition: 0.5s;
+    color: #181a1f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    border: 1px solid #ffeb3b;
+    padding: 5px 30px;
+    background: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.dop button:hover{
+    background: #ffeb3b;
+}
+
+/* galery */
+
+.galery{
+    height: 700px;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.box2{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    padding: 0;
+    margin: 0;
+}
+.box img{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.box2{
+    /* background: rgb(143, 49, 49); */
+    height: 700px;
+}
+.boks{
+    padding: 30px;
+    height: 350px;
+    background: #ffeb3b;
+}
+.boks2{
+    padding: 0;
+}
+.boks3{
+    padding: 0;
+}
+.boks4{
+    padding: 0;
+}
+.boks5{
+    padding: 0;
+}
+.boks h3{
+    color: #000000;
+    font-family: Vidaloka;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 96.05px;
+}
+.boks p{
+    width: 510px;
+    height: 69px;
+    color: #434242;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    margin-bottom: 50px;
+}
+.boks button{
+    width: 178px;
+    height: 45px;
+    margin-bottom: 20px;
+    background: #ffeb3b;
+    border: 1px solid black;
+}
+.boks2 img{
+    height: 350px;
+    width: 100%;
+}
+.boks3 img{
+    height: 350px;
+    width: 100%;
+}
+.boks4 img{
+    height: 350px;
+    width: 100%;
+}
+.boks5 img{
+    height: 350px;
+    width: 100%;
+}
+
+/* page 6 */
+
+.page6{
+    height: 1150px;
+    margin: 0 auto;
+}
+.title2{
+    text-align: center;
+    margin-top: 143px;
+    margin-bottom: 126px;
+}
+.title2 h1{
+    color: #333333;
+    font-family: Vidaloka;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 96.05px;
+}
+.title2 p{
+    color: #969595;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}
+.title__box{
+    text-align: center;
+}
+.title__box h3{
+    padding-top: 30%;
+    color: #ffffff;
+    font-family: Vidaloka;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+.title__box p{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0.56px;
+}
+.title__box a{
+    color: #ffeb3b;
+    font-family: "Open Sans - Semibold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: underline;
+}
+#abox{
+    color: black;
+    font-family: "Open Sans - Semibold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: underline;
+}
+.borsize{
+    width: 360px;
+    height: 300px;
+    margin: 5px;
+}
+.bosk{
+    background-color: #ff5252;
+}
+.bosk2{
+    background-color: #4caf50;
+}
+.bosk3{
+    background-color: #673ab7;
+}
+.bosk4{
+    background-color: #2196f3;
+}
+.bosk5{
+    background-color: #ffeb3b;
+}
+.bosk6{
+    background-color: #00bcd4;
+}
+
+/* PAGE 7 */
+
+.page7{
+    background-image: url(../image/page7.png);
+    /* background-size: cover; */
+    height: 600px;
+}
+.title7 h1{
+    margin-top: 129px;
+    color: #ffffff;
+    font-family: Vidaloka;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 96.05px;
+}
+.title7 p{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}
+.icon7{
+    margin: 0 auto;
+    margin-top: 126px;
+    width: 108px;
+    height: 40px;
+}
+.com{
+    justify-content: center;
+    margin-top: 50px;
+}
+.como{
+    margin-left: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
+.com2{
+    background: #ffeb3b;
+}
+
+/* PAGE8 */
+
+.page8{
+    height: 1100px;
+}
+.title8{
+    text-align: center;
+    margin-top: 133px;
+}
+.title8 h1{
+    color: #333333;
+    font-family: Vidaloka;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 56px;
+}
+.title8 p{
+    color: #969595;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.people{
+    text-align: center;
+    margin-top: 116px;
+}
+.opis__man h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.our h1{
+    color: #313131;
+    font-family: Vidaloka;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.64px;
+}
+.our  p{
+    font-weight: 400;
+    letter-spacing: 0.64px;
+    color: #575757;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    letter-spacing: 0.52px;
+    line-height: 22px;
+}
+.opis__man{
+    border: 1px solid #f1f1f1;
+}
+
+.icon__people{
+    justify-content: center;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+.icons{
+    border-radius: 20px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+.icon{
+    color: #dadada;
+}
+.icons:hover{
+    background: #ffeb3b;
+}
+.icon:hover{
+    color: #ffffff;
+}
+
+/* PAGE9 */
+
+.page9{
+    background-image: url(../image/bg9.png);
+    height: 496px;
+    text-align: center;
+}
+.title9{
+    margin-top: 150px;
+    /* text-align: center; */
+}
+.title9 h1{
+    color: #ffffff;
+    font-family: Vidaloka;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 48px;
+}
+.title9 p{
+    color: #969595;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 68px;
+}
+.inpr button{
+    width: 139px;
+    height: 50px;
+    background-color: #ffeb3b;
+    border: 1px solid #ffeb3b;
+}
+.inpr input{
+    width: 460px;
+    height: 50px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-image: url(../image/footer.png);
+    background-size: cover;
+    height: 295px;
+}
+.pos{
+   
+}
+.logo__footer{
+    margin-top: 40px;
+    justify-content: center;
+}
+.logo__footer img{
+    width: 43px;
+    height: 49px;
+    margin-top: 30px;
+}
+
+.footer__info{
+    text-align: center;
+    color: #ffffff;
+    font-family: Vidaloka;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+.footer__info span{
+    color: #ffeb3b;
+}
+.footer__link{
+    justify-content: center;
+}
+.but__foo{
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(49, 49, 49, 0);
+    color: #f9f9f9;
+    font-size: 26px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 0 20px;
+}
+.but__foo:hover{
+    color: #ffeb3b;
+}
